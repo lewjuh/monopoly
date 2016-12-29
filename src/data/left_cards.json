@@ -1,0 +1,95 @@
+[
+  {
+    "text": "Pall Mall",
+    "group": "pink",
+    "type": "normal",
+    "cardNo": 11,
+    "style": "",
+    "cat": "property",
+    "value": 140,
+    "tax": 50
+  },
+  {
+    "text": "Electric",
+    "group": "utility",
+    "type": "normal",
+    "cardNo": 12,
+    "style": "",
+    "cat": "utility",
+    "value": 150,
+    "tax": 50
+  },
+  {
+    "text": "Whitehall",
+    "group": "pink",
+    "type": "normal",
+    "cardNo": 13,
+    "style": "",
+    "cat": "property",
+    "value": 140,
+    "tax": 50
+  },
+  {
+    "text": "Northumberland",
+    "group": "pink",
+    "type": "normal",
+    "cardNo": 14,
+    "style": "",
+    "cat": "property",
+    "value": 160,
+    "tax": 50
+  },
+  {
+    "text": "Marylebone",
+    "group": "rail",
+    "type": "normal",
+    "cardNo": 15,
+    "style": "",
+    "cat": "rail",
+    "value": 200,
+    "tax": 50
+  },
+  {
+    "text": "Bow Street",
+    "group": "orange",
+    "type": "normal",
+    "cardNo": 16,
+    "style": "",
+    "cat": "property",
+    "value": 180,
+    "tax": 50
+  },
+  {
+    "text": "Community",
+    "type": "normal",
+    "style": "right",
+    "cardNo": 17,
+    "cat": "chest"
+  },
+  {
+    "text": "Marlborough Street",
+    "group": "orange",
+    "type": "normal",
+    "cardNo": 18,
+    "style": "",
+    "cat": "property",
+    "value": 180,
+    "tax": 50
+  },
+  {
+    "text": "Vine Street",
+    "group": "orange",
+    "type": "normal",
+    "cardNo": 19,
+    "style": "",
+    "cat": "property",
+    "value": 200,
+    "tax": 50
+  },
+  {
+    "text": "Free Parking",
+    "type": "corner",
+    "style": "small",
+    "cardNo": 20
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "text": "Go",
+    "type": "corner",
+    "style": "right",
+    "cardNo": 0,
+    "cat": "go"
+  },
+  {
+    "text": "Old Kent",
+    "group": "brown",
+    "type": "normal",
+    "style": "right",
+    "cardNo": 1,
+    "cat": "property",
+    "value": 60,
+    "tax": 50
+  },
+  {
+    "text": "Community",
+    "type": "normal",
+    "style": "right",
+    "cardNo": 2,
+    "cat": "chest"
+  },
+  {
+    "text": "Whitechapel",
+    "group": "brown",
+    "type": "normal",
+    "style": "right",
+    "cardNo": 3,
+    "cat": "property",
+    "value": 60,
+    "tax": 50
+  },
+  {
+    "text": "Income Tax",
+    "type": "normal",
+    "style": "right",
+    "cardNo": 4,
+    "cat": "tax",
+    "value": 200
+  },
+  {
+    "text": "Kings Cross",
+    "group": "rail",
+    "type": "normal",
+    "style": "right",
+    "cardNo": 5,
+    "cat": "rail",
+    "value": 200,
+    "tax": 50
+  },
+  {
+    "text": "The Angel",
+    "group": "lightblue",
+    "type": "normal",
+    "style": "right",
+    "cardNo": 6,
+    "cat": "property",
+    "value": 100,
+    "tax": 50
+  },
+  {
+    "text": "Chance",
+    "type": "normal",
+    "style": "right",
+    "cardNo": 7,
+    "cat": "chance"
+  },
+  {
+    "text": "Euston",
+    "group": "lightblue",
+    "type": "normal",
+    "style": "right",
+    "cardNo": 8,
+    "cat": "property",
+    "value": 100,
+    "tax": 50
+  },
+  {
+    "text": "Pentonville",
+    "group": "lightblue",
+    "type": "normal",
+    "style": "right",
+    "cardNo": 9,
+    "cat": "property",
+    "value": 120,
+    "tax": 50
+  },
+  {
+    "text": "Prison",
+    "type": "corner",
+    "style": "left",
+    "cardNo": 10,
+    "cat": "prison"
+  }
+]

@@ -1,0 +1,33 @@
+.game_panel{
+  width: 983px;
+  margin: 0 auto 20px;
+  display: flex;
+  flex-wrap: wrap;
+  .actions{
+    width: 100%;
+    button{
+      &:hover{
+        cursor: pointer;
+      }
+    }
+    .action{
+      background: #1DE9B6;
+      border: 0;
+      border-radius: 4px;
+      padding: 12px 30px;
+      color: #424242;
+      font-weight: 600;
+      transition: .15s;
+      &:hover{
+        color: #fff;
+        background: #00BFA5;
+      }
+    }
+  }
+  .user_info{
+    width: 50%;
+  }
+  .comp_info{
+    width: 50%;
+  }
+}

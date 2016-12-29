@@ -1,0 +1,84 @@
+[
+  {
+    "text": "Regent",
+    "group": "green",
+    "type": "normal",
+    "cardNo": 31,
+    "style": "",
+    "cat": "property",
+    "value": 300,
+    "tax": 50
+  },
+  {
+    "text": "Oxford",
+    "group": "green",
+    "type": "normal",
+    "cardNo": 32,
+    "style": "",
+    "cat": "property",
+    "value": 300,
+    "tax": 50
+  },
+  {
+    "text": "Community",
+    "type": "normal",
+    "style": "right",
+    "cardNo": 33,
+    "cat": "chest"
+  },
+  {
+    "text": "Bond",
+    "group": "green",
+    "type": "normal",
+    "cardNo": 34,
+    "style": "",
+    "cat": "property",
+    "value": 320,
+    "tax": 50
+  },
+  {
+    "text": "Liverpool",
+    "group": "rail",
+    "type": "normal",
+    "cardNo": 35,
+    "style": "",
+    "cat": "rail",
+    "value": 200,
+    "tax": 50
+  },
+  {
+    "text": "Chance",
+    "type": "normal",
+    "style": "right",
+    "cardNo": 36,
+    "cat": "chance"
+  },
+  {
+    "text": "Park Lane",
+    "group": "blue",
+    "type": "normal",
+    "cardNo": 37,
+    "style": "",
+    "cat": "property",
+    "value": 350,
+    "tax": 50
+  },
+  {
+    "text": "Super Tax",
+    "type": "normal",
+    "style": "right",
+    "cardNo": 38,
+    "cat": "tax",
+    "value": 100
+  },
+  {
+    "text": "Mayfair",
+    "group": "blue",
+    "type": "normal",
+    "cardNo": 39,
+    "style": "",
+    "cat": "property",
+    "value": 400,
+    "tax": 50
+  }
+]

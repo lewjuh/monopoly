@@ -1,0 +1,95 @@
+[
+  {
+    "text": "Strand",
+    "group": "red",
+    "type": "normal",
+    "cardNo": 21,
+    "style": "",
+    "cat": "property",
+    "value": 200,
+    "tax": 50
+  },
+  {
+    "text": "Chance",
+    "type": "normal",
+    "style": "right",
+    "cardNo": 22,
+    "cat": "chance"
+  },
+  {
+    "text": "Fleet",
+    "group": "red",
+    "type": "normal",
+    "cardNo": 23,
+    "style": "",
+    "cat": "property",
+    "value": 220,
+    "tax": 50
+  },
+  {
+    "text": "Trafalgar",
+    "group": "red",
+    "type": "normal",
+    "cardNo": 24,
+    "style": "",
+    "cat": "property",
+    "value": 240,
+    "tax": 50
+  },
+  {
+    "text": "Fenchurch",
+    "group": "rail",
+    "type": "normal",
+    "cardNo": 25,
+    "style": "",
+    "cat": "rail",
+    "value": 200,
+    "tax": 50
+  },
+  {
+    "text": "Leicester",
+    "group": "yellow",
+    "type": "normal",
+    "cardNo": 26,
+    "style": "",
+    "cat": "property",
+    "value": 260,
+    "tax": 50
+  },
+  {
+    "text": "Coventry",
+    "group": "yellow",
+    "type": "normal",
+    "cardNo": 27,
+    "style": "",
+    "cat": "property",
+    "value": 260,
+    "tax": 50
+  },
+  {
+    "text": "Water",
+    "group": "utility",
+    "type": "normal",
+    "cardNo": 28,
+    "style": "",
+    "cat": "utility",
+    "value": 150,
+    "tax": 50
+  },
+  {
+    "text": "Piccadilly",
+    "group": "yellow",
+    "type": "normal",
+    "cardNo": 29,
+    "style": "",
+    "cat": "property",
+    "value": 280,
+    "tax": 50
+  },
+  {
+    "text": "Go to Jail",
+    "type": "corner",
+    "style": "small",
+    "cardNo": 30
+  }
+]

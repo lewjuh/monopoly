@@ -1,0 +1,240 @@
+$tile_height: 130px;
+$card_width: 80px;
+.board_wrap{
+  display: flex;
+  justify-content: center;
+  .game_log{
+    margin: 20px 0;
+    overflow-y: scroll;
+    max-height: 983px;
+    span{
+      display: block;
+      padding: 10px;
+      width: 250px;
+      &:nth-child(2n){
+        background: #EEE;
+      }
+    }
+  }
+  .board{
+    width: 983px;
+    height: 983px;
+    display: block;
+    background: #CDE6D0;
+    margin: 20px 0;
+    position: relative;
+    border: 3px solid #000;
+    .card{
+      height: $tile_height;
+      width: $card_width;
+      border-left: 3px solid #000;
+      line-height: $tile_height;
+      text-align: center;
+      position: relative;
+      font-size: 13px;
+      position: relative;
+      span{
+        z-index: 100000;
+        display: block;
+        position: relative;
+        text-shadow: -1px -1px 0px rgba(205, 230, 208, 1), 1px 1px 0px rgba(205, 230, 208, 1), -1px 1px 0px rgba(205, 230, 208, 1), 1px -1px 0px rgba(205, 230, 208, 1);
+      }
+      &.right{
+        float: right;
+      }
+      &.left{
+        float: left;
+      }
+      &.brown{
+        &:before{
+          content: "";
+          position: absolute;
+          height: 25px;
+          width: 100%;
+          top: 0;
+          left: 0;
+          right: 0;
+          background: #AE6017;
+        }
+      }
+      &.lightblue{
+        &:before{
+          content: "";
+          position: absolute;
+          height: 25px;
+          width: 100%;
+          top: 0;
+          left: 0;
+          right: 0;
+          background: #99ffff;
+        }
+      }
+      &.pink{
+        &:before{
+          content: "";
+          position: absolute;
+          width: 25px;
+          height: 100%;
+          top: 0;
+          bottom: 0;
+          right: 3px;
+          background: #cc44cc;
+        }
+      }
+      &.orange{
+        &:before{
+          content: "";
+          position: absolute;
+          width: 25px;
+          height: 100%;
+          top: 0;
+          bottom: 0;
+          right: 3px;
+          background: #ff8800;
+        }
+      }
+      &.red{
+        &:before{
+          content: "";
+          position: absolute;
+          height: 25px;
+          width: 100%;
+          bottom: 3px;
+          left: 0;
+          right: 0;
+          background: #ff0000;
+        }
+      }
+      &.yellow{
+        &:before{
+          content: "";
+          position: absolute;
+          height: 25px;
+          width: 100%;
+          bottom: 3px;
+          left: 0;
+          right: 0;
+          background: #ffff00;
+        }
+      }
+      &.green{
+        &:before{
+          content: "";
+          position: absolute;
+          width: 25px;
+          height: 100%;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          background: #336633;
+        }
+      }
+      &.blue{
+        &:before{
+          content: "";
+          position: absolute;
+          width: 25px;
+          height: 100%;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          background: #3333ff;
+        }
+      }
+    }
+    .user_position{
+      position: absolute;
+      bottom: 10px;
+      left: 10%;
+      height: 40px;
+      line-height: normal;
+    }
+    .comp_position{
+      position: absolute;
+      bottom: 10px;
+      right: 10%;
+      height: 40px;
+      line-height: normal;
+    }
+    .board_bottom{
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: $tile_height;
+      border-top: 3px solid #000;
+    }
+    .board_left{
+      width: $tile_height;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      top: 0;
+      height: 100%;
+      border-right: 3px solid #000;
+      display: flex;
+      flex-direction: column-reverse;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+      .card{
+        width: $tile_height;
+        height: $card_width;
+        border-left: 0;
+        border-bottom: 3px solid #000;
+        line-height: $card_width;
+        text-align: center;
+        position: relative;
+      }
+    }
+    .board_top{
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: $tile_height;
+      border-bottom: 3px solid #000;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+    .board_right{
+      width: $tile_height;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      height: 100%;
+      border-left: 3px solid #000;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      .card{
+        width: $tile_height;
+        height: $card_width;
+        border-left: 0;
+        border-bottom: 3px solid #000;
+        line-height: $card_width;
+        text-align: center;
+        position: relative;
+      }
+    }
+    .corner_card{
+      height: $tile_height;
+      width: $tile_height;
+      text-align: center;
+      line-height: $tile_height;
+      font-size: 32px;
+      position: relative;
+      &.right{
+        float: right;
+      }
+      &.small{
+        font-size: 20px;
+      }
+    }
+  }
+}
